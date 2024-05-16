@@ -1,0 +1,87 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.list-item {
+  list-style-type: none;
+  height: 10vh;
+  padding: 10px;
+  width: 80vw;
+  margin-bottom: 20px;
+}
+.item {
+  display: flex;
+  flex-direction: row;
+}
+.time{
+  font-family: Roboto;
+  font-size: 14px;
+  color: #cbd2d9;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+.con {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  display: flex;
+  margin: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.co {
+  font-family: Roboto;
+  font-size: 30px;
+  color: #fff;
+}
+.card {
+  width: 5vw;
+  display: flex;
+  flex-direction: column;
+}
+.img {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
+.lin {
+  margin-left: -20px;
+  width: 70vw;
+  margin-bottom: 10px;
+}
+.su-co {
+  display: flex;
+  justify-content: space-between;
+  width: 45vw;
+  margin-left: 30px;
+}
+.btn {
+  border-style: none;
+  background-color: #fff;
+}

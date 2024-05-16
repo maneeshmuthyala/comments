@@ -1,0 +1,88 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+.main {
+  width: 100vw;
+}
+.header {
+  font-family: Roboto;
+  font-size: 59px;
+  font-weight: bold;
+}
+.line {
+  color: #1e293b;
+  width: 97vw;
+}
+
+.sub {
+  height: 68vh;
+  width: 50vw;
+  display: flex;
+  padding-left: 20px;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.subb {
+  height: 60vh;
+  width: 48vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 10px;
+}
+.image {
+  height: 45vh;
+  width: 45vw;
+  margin-top: 30px;
+}
+.desc {
+  font-family: Roboto;
+  font-size: 20px;
+  color: #1e293b;
+}
+.one {
+  height: 5vh;
+  width: 32vw;
+  margin-bottom: 10px;
+  font-family: Roboto;
+  font-size: 20px;
+  border-radius: 9px;
+  padding: 10px;
+}
+.two {
+  height: 30vh;
+  padding: 10px;
+  width: 32vw;
+  margin-bottom: 20px;
+  font-family: Roboto;
+  font-size: 20px;
+  border-radius: 9px;
+}
+.butn {
+  font-family: Roboto;
+  height: 70px;
+  cursor: pointer;
+  width: 150px;
+  background-color: #0284c7;
+  color: #fff;
+  border-width: 0px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.mini {
+  height: 30px;
+  width: 30px;
+  background-color: #0284c7;
+  color: #fff;
+  text-align: center;
+  margin-right: 10px;
+}
+.min {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+}
